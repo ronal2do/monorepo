@@ -10,8 +10,9 @@
   "dependencies": {
     "next": "^8.0.0",
     "react": "^16.8.6",
+    "react-art": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-native": "^0.59.5",
+    "react-native-web": "^0.11.5",
     "react-scripts": "^3.0.1"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-info": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-options": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
     "@types/jest": "^24.0.15",
@@ -27,12 +29,15 @@
     "@types/storybook__addon-actions": "^3.4.3",
     "@types/storybook__addon-info": "^4.1.2",
     "@types/storybook__addon-links": "^3.3.5",
+    "@types/storybook__addon-options": "^4.0.2",
     "@types/storybook__react": "^4.0.2",
     "@types/webpack-env": "^1.14.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
+    "babel-plugin-react-native-web": "^0.11.5",
     "jest": "^24.8.0",
     "react-docgen-typescript-loader": "^3.1.0",
+    "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   }
