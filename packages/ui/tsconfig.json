@@ -2,6 +2,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "./dist",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,7 +19,7 @@
     "emitDecoratorMetadata": true,
     "sourceMap": true
   },
-  "include": ["components"],
+  // "include": ["components"],
   "baseUrl": ".",
-  "exclude": ["**/*.story.tsx", "**/*.test.tsx", "**/*.d.ts"]
+  "exclude": [".storybook/**/*", "**/*.story.tsx", "**/*.test.tsx", "**/*.d.ts"]
 }
