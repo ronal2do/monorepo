@@ -1,0 +1,14 @@
+{
+  "name": "@boilerplate/ui",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.5",
+    "next": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.11",
+    "@types/next": "^8.0.0"
+  }
+}

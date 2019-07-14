@@ -1,0 +1,3 @@
+"use strict";exports.__esModule=true;exports.default=worker;var _utils=require("./utils");function worker(options,callback){try{const{serverBundle,runtimeEnvConfig}=options||{};const result=(0,_utils.isPageStatic)(serverBundle,runtimeEnvConfig);// clear require.cache to prevent running out of memory
+// since the cache is persisted by default
+Object.keys(require.cache).map(modId=>{const mod=require.cache[modId];delete require.cache[modId];if(mod.parent){const idx=mod.parent.children.indexOf(mod);mod.parent.children.splice(idx,1);}});callback(null,result);}catch(error){callback(error);}}
