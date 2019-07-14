@@ -7,7 +7,7 @@ module.exports = api => {
     [
       'module-resolver',
       {
-        // root: ["./"],
+        root: ["./"],
         alias: {
           '^react-native$': 'react-native-web',
         },

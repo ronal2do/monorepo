@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { storiesOf } from "@storybook/react";
-import { Typography } from "./Typography";
+import { Typography } from "./";
 
 storiesOf("Typography", module)
   .add("with text", () => <Typography text="text"/>)

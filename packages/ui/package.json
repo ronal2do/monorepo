@@ -1,9 +1,9 @@
 {
   "name": "@boilerplate/ui",
   "version": "1.0.0",
+  "types": "index.d.ts",
+  "main": "index.js",
   "private": true,
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "storybook": "start-storybook -p 9009 -s public",

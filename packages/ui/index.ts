@@ -1,3 +1,3 @@
-export { Typography } from './components/Typography/Typography';
-
-export { ThemeContext, ThemeProvider } from './ThemeContext';
+import { Typography } from './components/Typography';
+import { ThemeContext, useThemeContext, ThemeProvider } from './ThemeContext';
+export { Typography, ThemeContext, useThemeContext, ThemeProvider }

@@ -1,7 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import React from 'react'
 import { AppRegistry } from 'react-native'
-import { ThemeProvider } from '@boilerplate/ui';
+import { ThemeProvider } from '@boilerplate/ui'
 
 // Force Next-generated DOM elements to fill their parent's height
 const normalizeNextElements = `

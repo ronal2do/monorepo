@@ -10,10 +10,9 @@
     "web:build": "yarn workspace @boilerplate/web build"
   },
   "private": true,
-  "engines": {
-    "node": "10.15.0"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
 }

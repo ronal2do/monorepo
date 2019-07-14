@@ -1,8 +1,7 @@
 import React from 'react';
 import { NextPageContext } from 'next';
 import { StyleSheet, View } from 'react-native'
-import { Typography } from '@boilerplate/ui'
-import { useThemeContext } from '@boilerplate/ui/ThemeContext';
+import { Typography, useThemeContext } from '@boilerplate/ui'
 
 interface Props {
   userAgent: string;
