@@ -2,13 +2,21 @@
   "name": "@boilerplate/ui",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "build": "tsc",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
   "dependencies": {
+    "@storybook/react": "^5.1.9",
+    "@types/storybook__react": "^4.0.2",
+    "next": "^8.0.0",
     "react": "^16.8.6",
-    "react-native": "^0.59.5",
-    "next": "^8.0.0"
+    "react-native": "^0.59.5"
   },
   "devDependencies": {
+    "@types/next": "^8.0.0",
     "@types/react": "^16.7.11",
-    "@types/next": "^8.0.0"
+    "@types/webpack-env": "^1.14.0"
   }
 }
