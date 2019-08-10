@@ -10,5 +10,3 @@ module.exports = withCustomBabelConfig(
     transpileModules: ['@boilerplate/ui'],
   }),
 );
-
-// '@boilerplate/ui': require.resolve('@boilerplate/ui'),
