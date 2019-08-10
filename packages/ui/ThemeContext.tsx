@@ -12,7 +12,6 @@ export function generateTheme(themeName: string) {
       // https://en.99designs.nl/blog/trends/color-trends-2019/
       return DarkTheme;
     case 'coral':
-      // https://en.99designs.nl/blog/trends/color-trends-2019/
       return DarkTheme;
     default:
       return LightTheme;
