@@ -9,7 +9,7 @@ interface Props {
 
 function Page({ userAgent }: Props) {
   const { theme } = useThemeContext()
-  
+
   return (
     <View style={[styles.container, { backgroundColor: theme.primaryColor }]}>
       <Typography text={`Your user agent ${userAgent}`}/>

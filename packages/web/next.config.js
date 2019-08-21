@@ -1,5 +1,4 @@
 const path = require('path');
-const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
 const withCustomBabelConfig = require('next-plugin-custom-babel-config');
 const withTranspileModules = require('next-transpile-modules');
 

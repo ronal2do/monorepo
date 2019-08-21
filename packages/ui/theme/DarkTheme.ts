@@ -1,7 +1,8 @@
 import { LightTheme } from "./LightTheme";
 
-export const DarkTheme = {
-  ...LightTheme, // get by default all settings from Light Theme
+export const DarkThemeSetup = {
   primaryColor: '#282c34',
   secondaryColor: '#61dafb',
 }
+
+export const DarkTheme = Object.assign(LightTheme, DarkThemeSetup)

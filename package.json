@@ -7,7 +7,8 @@
     "ui:sb-build": "yarn workspace @boilerplate/ui build-storybook",
     "web:dev": "yarn workspace @boilerplate/web dev",
     "web:start": "yarn workspace @boilerplate/web start",
-    "web:build": "yarn workspace @boilerplate/web build"
+    "web:build": "yarn workspace @boilerplate/web build",
+    "electron:start": "yarn workspace @boilerplate/desktop start"
   },
   "private": true,
   "workspaces": {
