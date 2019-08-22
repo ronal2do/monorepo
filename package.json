@@ -8,12 +8,20 @@
     "web:dev": "yarn workspace @boilerplate/web dev",
     "web:start": "yarn workspace @boilerplate/web start",
     "web:build": "yarn workspace @boilerplate/web build",
-    "electron:start": "yarn workspace @boilerplate/desktop start"
+    "electron:start": "yarn workspace @boilerplate/desktop start",
+    "ios": "yarn workspace @boilerplate/mobile ios"
   },
   "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native-*"
     ]
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
   }
 }

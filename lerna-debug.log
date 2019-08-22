@@ -1,0 +1,16 @@
+0 silly argv { _: [ 'import' ],
+0 silly argv   flatten: true,
+0 silly argv   lernaVersion: '3.16.4',
+0 silly argv   '$0': '../../../../.npm/_npx/11484/bin/lerna',
+0 silly argv   dir: '/Users/limar/Development/OPEN/monorepotest/mobile' }
+1 notice cli v3.16.4
+2 verbose rootPath /Users/limar/Development/OPEN/monorepotest/monoone
+3 error Error: Command failed: git log --format=%h --first-parent
+3 error fatal: your current branch 'master' does not have any commits yet
+3 error
+3 error
+3 error     at makeError (/Users/limar/.npm/_npx/11484/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+3 error     at Function.module.exports.sync (/Users/limar/.npm/_npx/11484/lib/node_modules/lerna/node_modules/execa/index.js:338:15)
+3 error     at Object.execSync (/Users/limar/.npm/_npx/11484/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:26:16)
+3 error     at ImportCommand.externalExecSync (/Users/limar/.npm/_npx/11484/lib/node_modules/lerna/node_modules/@lerna/import/index.js:147:34)
+3 error     at ImportCommand.initialize (/Users/limar/.npm/_npx/11484/lib/node_modules/lerna/node_modules/@lerna/import/index.js:82:25)
